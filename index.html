@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Animations & JavaScript Functions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CSS3 Animations & JavaScript Functions</h1>
+        
+        <!-- Part 1: CSS3 Animations -->
+        <section class="animation-section">
+            <h2>CSS3 Transitions & Animations</h2>
+            
+            <div class="animation-demo">
+                <div class="box hover-effect">Hover Effect</div>
+                <div class="box continuous-animation">Continuous Animation</div>
+                <button class="animated-btn">Animated Button</button>
+            </div>
+        </section>
+
+        <!-- Part 2: JavaScript Functions -->
+        <section class="functions-section">
+            <h2>JavaScript Functions</h2>
+            
+            <div class="function-demo">
+                <div class="input-group">
+                    <input type="number" id="num1" placeholder="Enter number 1">
+                    <input type="number" id="num2" placeholder="Enter number 2">
+                    <button onclick="calculate()">Calculate Sum</button>
+                </div>
+                <p id="result"></p>
+                
+                <button onclick="demonstrateScope()">Demonstrate Scope</button>
+                <p id="scope-result"></p>
+            </div>
+        </section>
+
+        <!-- Part 3: Combined CSS & JavaScript -->
+        <section class="combined-section">
+            <h2>Combined CSS Animations & JavaScript</h2>
+            
+            <div class="combined-demo">
+                <button onclick="triggerAnimation()">Trigger Box Animation</button>
+                <button onclick="toggleCardFlip()">Flip Card</button>
+                
+                <div class="animated-box" id="js-animated-box">Click to Animate Me!</div>
+                
+                <div class="card-container">
+                    <div class="card" id="flip-card">
+                        <div class="card-front">Front</div>
+                        <div class="card-back">Back</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
